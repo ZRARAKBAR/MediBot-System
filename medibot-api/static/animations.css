@@ -1,0 +1,33 @@
+/* animations.css */
+
+/* Fades an element in smoothly */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slides a chat bubble up from the bottom */
+@keyframes slideUp {
+    from { transform: translateY(15px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* A soft pulse effect, great for an AI "listening" or "processing" state */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.7; }
+}
+
+/* Utility classes to apply the animations easily in HTML */
+.animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+.animate-pulse {
+    animation: pulse 2s infinite ease-in-out;
+}

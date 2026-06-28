@@ -1,0 +1,59 @@
+{
+    "temperature": "fever",
+    "high temperature": "fever",
+    "high fever": "fever",
+    "low fever": "fever",
+
+    "head hurts": "headache",
+    "pain in head": "headache",
+    "head pain": "headache",
+    "head is hurting": "headache",
+    "migraine pain": "migraine",
+
+    "stomach ache": "abdominal pain",
+    "stomach pain": "abdominal pain",
+    "tummy pain": "abdominal pain",
+    "belly pain": "abdominal pain",
+    "my tummy hurts": "abdominal pain",
+    "my stomach hurts": "abdominal pain",
+
+    "throwing up": "vomiting",
+    "vomit": "vomiting",
+    "feel like vomiting": "nausea",
+
+    "runny nose": "nasal discharge",
+    "blocked nose": "nasal congestion",
+    "nose blocked": "nasal congestion",
+
+    "can't breathe": "shortness of breath",
+    "cannot breathe": "shortness of breath",
+    "breathing difficulty": "shortness of breath",
+    "difficulty breathing": "shortness of breath",
+
+    "tight chest": "chest pain",
+    "chest feels tight": "chest pain",
+
+    "body ache": "body pain",
+    "body aches": "body pain",
+    "muscle pain": "body pain",
+
+    "very tired": "fatigue",
+    "feeling weak": "fatigue",
+    "weakness": "fatigue",
+    "no energy": "fatigue",
+
+    "loose motion": "diarrhea",
+    "loose motions": "diarrhea",
+
+    "burning urine": "painful urination",
+    "pain while urinating": "painful urination",
+
+    "loss of smell": "anosmia",
+    "loss of taste": "ageusia",
+
+    "itchy skin": "itching",
+    "skin rash": "rash",
+
+    "dry cough": "cough",
+    "wet cough": "cough"
+}

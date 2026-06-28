@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediBot AI | Smart Healthcare Assistant</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Your existing structure sheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+
+    <!-- MediBot AI Theme Overrides (Dominates SkillLink Colors) -->
+    <style>
+        :root {
+            --brand-accent: #0ea5e9; /* MediBot Primary Blue */
+            --brand-dark: #0f172a;   /* MediBot Dark Background */
+            --brand-card: #1e293b;   /* MediBot Dark Card */
+            --text-light: #f8fafc;
+            --text-muted-dark: #94a3b8;
+        }
+
+        body {
+            background-color: var(--brand-dark);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Navbar Overrides */
+        .glass-nav {
+            background: rgba(15, 23, 42, 0.9) !important;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* Card & Container Overrides for Dark Theme */
+        .bg-white {
+            background-color: var(--brand-card) !important;
+            border-color: rgba(255,255,255,0.05) !important;
+        }
+        
+        .text-dark {
+            color: var(--text-light) !important;
+        }
+        
+        .text-muted {
+            color: var(--text-muted-dark) !important;
+        }
+
+        /* Form Controls */
+        .form-control {
+            background-color: rgba(255,255,255,0.05) !important;
+            color: white !important;
+        }
+        .form-control::placeholder {
+            color: #64748b !important;
+        }
+
+        /* Buttons */
+        .btn-accent {
+            background-color: var(--brand-accent) !important;
+            color: white !important;
+            border: none;
+        }
+        .btn-accent:hover {
+            background-color: #0284c7 !important;
+        }
+
+        /* Specific SkillLink element overrides */
+        .why-badge {
+            background-color: rgba(14, 165, 233, 0.1);
+            color: var(--brand-accent);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+
+        .stats-card, .worker-card, .accordion-item {
+            background-color: var(--brand-card) !important;
+            color: white !important;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .accordion-button {
+            background-color: var(--brand-card) !important;
+            color: white !important;
+        }
+        
+        .accordion-button:not(.collapsed) {
+            color: var(--brand-accent) !important;
+        }
+        
+        .accordion-button::after {
+            filter: invert(1);
+        }
+       /* Container: Uses Flexbox to perfectly center the content */
+.about-video-section {
+    position: relative;
+    height: 600px; /* Increased height for a "cinematic" look */
+    display: flex;
+    align-items: center; /* Vertically centers text */
+    justify-content: center; /* Horizontally centers text */
+    overflow: hidden;
+}
+
+/* Video: Darkens naturally without needing a thick overlay */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Overlay: Subtle gradient for high-end look */
+.about-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dark gradient helps text pop at the bottom/center */
+    background: linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.6));
+    z-index: 2;
+}
+
+/* Content: Styling the text for professional readability */
+.about-content-wrapper {
+    position: relative;
+    z-index: 3;
+    text-align: center; /* Center align looks more professional for hero sections */
+    max-width: 800px;   /* Prevents text from stretching too wide */
+    padding: 20px;
+}
+
+.about-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Text pops off the video */
+}
+
+.about-text .lead-text {
+    font-size: 1.25rem;
+    color: var(--brand-accent) !important;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                
+                <span class="fw-bold fs-4 text-white">MediBot AI</span>
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center fw-medium gap-lg-2">
+                    <li class="nav-item"><a class="nav-link mx-2 active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#about">About AI</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero-section d-flex align-items-center text-center pt-5 pb-5">
+        <div class="container slide-up mt-5">
+            <span class="badge text-white mb-3 px-3 py-2 rounded-pill" style="background-color: rgba(14, 165, 233, 0.2); border: 1px solid var(--brand-accent);">Top AI Healthcare 2026</span>
+            <h1 class="display-3 fw-bolder mb-4 text-white">Health. Analyzed. <span style="color: var(--brand-accent);">Instantly.</span></h1>
+            <p class="lead mb-5 text-light opacity-75 mx-auto" style="max-width: 600px;">Get instant symptom analysis, disease prediction, and healthcare guidance powered by advanced Machine Learning.</p>
+
+          <div class="row justify-content-center">
+    <div class="col-lg-7 col-md-9">
+        <!-- Changed action to chat.html and added method="GET" -->
+       <!-- Update this in index.html -->
+<form action="/chat" method="GET" class="search-wrapper d-flex p-2 bg-white rounded-pill shadow-lg">
+    <input type="text" name="query" class="form-control form-control-lg border-0 bg-transparent shadow-none px-4" placeholder="Describe your symptoms..." required>
+    <button type="submit" class="btn btn-accent rounded-pill px-4 px-md-5 fw-bold">Diagnose</button>
+</form>
+        <p class="small mt-4 text-light opacity-75">
+            <span class="fw-bold text-white">Try asking:</span> "I have a severe headache and fever", "Skin rash analysis"
+        </p>
+    </div>
+</div>
+        </div>
+    </header>
+
+    <!-- STATS CONTAINER (Overlapping Hero) -->
+    <section class="container stats-container" style="margin-top: -30px; position: relative; z-index: 10;">
+        <div class="row g-3 g-md-4 text-center slide-up delay-1">
+            <div class="col-md-3 col-6">
+                <div class="stats-card h-100 py-4 rounded-4 shadow-sm">
+                    <div class="display-6 mb-2" style="color: var(--brand-accent);">🧠</div>
+                    <h2 class="fw-bolder mb-0 text-white">60%</h2>
+                    <p class="text-muted small text-uppercase fw-bold mb-0">Model Accuracy</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stats-card h-100 py-4 rounded-4 shadow-sm">
+                    <div class="display-6 mb-2" style="color: var(--brand-accent);">⚡</div>
+                    <h2 class="fw-bolder mb-0 text-white">2s</h2>
+                    <p class="text-muted small text-uppercase fw-bold mb-0">Response Time</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stats-card h-100 py-4 rounded-4 shadow-sm">
+                    <div class="display-6 mb-2" style="color: var(--brand-accent);">🌍</div>
+                    <h2 class="fw-bolder mb-0 text-white">0+</h2>
+                    <p class="text-muted small text-uppercase fw-bold mb-0">Users Helped</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stats-card h-100 py-4 rounded-4 shadow-sm">
+                    <div class="display-6 mb-2" style="color: var(--brand-accent);">🔒</div>
+                    <h2 class="fw-bolder mb-0 text-white">100%</h2>
+                    <p class="text-muted small text-uppercase fw-bold mb-0">Data Privacy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE (SkillLink Layout Adapted) -->
+    <section id="about" class="container py-5 mt-5">
+        <div class="text-center mb-5">
+            <h6 class="text-uppercase fw-bold" style="color: var(--brand-accent);">The MediBot Advantage</h6>
+            <h2 class="fw-bolder display-6 text-white">Why Trust MediBot AI?</h2>
+            <p class="text-muted mx-auto mt-3" style="max-width: 700px;">We replace confusing web searches with structured, data-driven medical insights. Get clarity on your health instantly.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="row align-items-center mb-5 p-4 rounded-4 shadow-sm bg-white">
+                    <div class="col-md-2 mb-3 mb-md-0 text-center">
+                        <div class="why-badge"><i class="bi bi-cpu-fill"></i></div>
+                    </div>
+                    <div class="col-md-10 text-center text-md-start pl-md-4">
+                        <h4 class="fw-bold mb-2 text-white">Advanced AI Diagnosis</h4>
+                        <p class="text-muted mb-0">Our predictive models are trained on millions of medical records to provide accurate, reliable guidance based on your specific symptoms.</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center mb-5 p-4 rounded-4 shadow-sm bg-white">
+                    <div class="col-md-2 mb-3 mb-md-0 text-center order-md-2">
+                        <div class="why-badge"><i class="bi bi-shield-lock-fill"></i></div>
+                    </div>
+                    <div class="col-md-10 text-center text-md-end pr-md-4 order-md-1">
+                        <h4 class="fw-bold mb-2 text-white">Absolute Privacy & Security</h4>
+                        <p class="text-muted mb-0">Your health data is sensitive. We use military-grade encryption to ensure your medical queries and image uploads are never stored or shared.</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center p-4 rounded-4 shadow-sm bg-white">
+                    <div class="col-md-2 mb-3 mb-md-0 text-center">
+                        <div class="why-badge"><i class="bi bi-clock-fill"></i></div>
+                    </div>
+                    <div class="col-md-10 text-center text-md-start pl-md-4">
+                        <h4 class="fw-bold mb-2 text-white">24/7 Availability</h4>
+                        <p class="text-muted mb-0">Health concerns don't wait for office hours. MediBot is always online to provide preliminary assessments and peace of mind at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO TRANSFORMATION SECTION -->
+    <section class="about-video-section mt-5">
+       <video autoplay loop muted playsinline class="background-video">
+    <source src="{{ url_for('static', filename='transform.mp4') }}" type="video/mp4">
+</video>
+        <div class="about-video-overlay" style="background: rgba(15, 23, 42, 0.85);"></div>
+        <div class="about-content-wrapper">
+            <div class="about-text">
+                <h6 class="section-tag" style="color: var(--brand-accent);">THE TRANSFORMATION</h6>
+                <h1 class="text-white">From Web Searches<br>to Smart AI Guidance</h1>
+                <p class="lead-text text-light">Stop panicking over inaccurate internet self-diagnoses.</p>
+                <p class="text-light opacity-75">
+                    The traditional way of checking symptoms meant reading chaotic forums and fearing the worst. <br>
+                 MediBot transforms this experience through a conversational AI that asks the right follow-up questions, analyzes your data, and provides rational, science-backed guidance.
+                </p>
+                <div class="about-buttons">
+                    <a href="#home" class="btn btn-accent btn-lg rounded-pill">Try it Now</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES (Replacing Top Workers Grid) -->
+    <section id="features" class="py-5 mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold text-white mb-0">Core AI Capabilities</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card worker-card h-100 text-center p-4">
+                        <div class="display-4 mb-3" style="color: var(--brand-accent);"><i class="bi bi-chat-dots-fill"></i></div>
+                        <div class="card-body p-0">
+                            <h5 class="fw-bold mb-2 text-white">Symptom Checker</h5>
+                            <p class="text-muted small mb-0">Chat naturally about how you feel, and let our NLP model pinpoint potential causes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card worker-card h-100 text-center p-4">
+                        <div class="display-4 mb-3" style="color: var(--brand-accent);"><i class="bi bi-capsule"></i></div>
+                        <div class="card-body p-0">
+                            <h5 class="fw-bold mb-2 text-white">Medicine Info</h5>
+                            <p class="text-muted small mb-0">Get instant information on over-the-counter medications, dosages, and interactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card worker-card h-100 text-center p-4">
+                        <div class="display-4 mb-3" style="color: var(--brand-accent);"><i class="bi bi-image"></i></div>
+                        <div class="card-body p-0">
+                            <h5 class="fw-bold mb-2 text-white">Vision AI</h5>
+                            <p class="text-muted small mb-0">Upload images of skin rashes or wounds for preliminary computer vision assessment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card worker-card h-100 text-center p-4">
+                        <div class="display-4 mb-3" style="color: var(--brand-accent);"><i class="bi bi-heart-pulse-fill"></i></div>
+                        <div class="card-body p-0">
+                            <h5 class="fw-bold mb-2 text-white">Risk Prediction</h5>
+                            <p class="text-muted small mb-0">Input your vitals to forecast long-term health trends using our regression models.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP DOWNLOAD -->
+    <section class="container my-5 pt-5">
+        <div class="row align-items-center bg-white rounded-4 shadow-sm p-4 p-md-5">
+            <div class="col-md-8 text-center text-md-start mb-4 mb-md-0">
+                <h2 class="fw-bolder mb-2 text-white">Your Pocket Doctor</h2>
+                <p class="text-muted mb-4 fs-5">Download the MediBot App for voice-to-text symptom logging and real-time alerts.</p>
+                <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                    <button class="btn btn-dark rounded-pill px-4 py-2 d-flex align-items-center" style="background-color: #0f172a; border: 1px solid rgba(255,255,255,0.1);">
+                        <i class="bi bi-google-play fs-4 me-2" style="color: var(--brand-accent);"></i>
+                        <div class="text-start">
+                            <small class="d-block lh-1 opacity-75" style="font-size: 10px;">GET IT ON</small>
+                            <span class="fw-bold lh-1 text-white">Google Play</span>
+                        </div>
+                    </button>
+                    <button class="btn btn-dark rounded-pill px-4 py-2 d-flex align-items-center" style="background-color: #0f172a; border: 1px solid rgba(255,255,255,0.1);">
+                        <i class="bi bi-apple fs-4 me-2" style="color: var(--brand-accent);"></i>
+                        <div class="text-start">
+                            <small class="d-block lh-1 opacity-75" style="font-size: 10px;">Download on the</small>
+                            <span class="fw-bold lh-1 text-white">App Store</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                 <i class="bi bi-phone text-muted" style="font-size: 8rem;"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="container py-5 my-5 text-center">
+        <div class="mb-5">
+            <h6 class="text-uppercase fw-bold mb-2" style="color: var(--brand-accent);">Support</h6>
+            <h2 class="fw-bolder display-6 text-white">Frequently Asked Questions</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-start">
+                <div class="accordion custom-accordion" id="faqAccordion">
+                    <div class="accordion-item shadow-sm rounded mb-3 border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fw-bold fs-5 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Can MediBot replace a real doctor?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted px-4 pb-4 pt-0">
+                                No. MediBot AI is designed to provide medical awareness and guidance based on pattern recognition. It should never replace professional medical diagnosis, advice, or treatment. In emergencies, always contact a hospital.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm rounded mb-3 border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold fs-5 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Are my chats and images stored?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted px-4 pb-4 pt-0">
+                                Absolutely not. We operate on a strict zero-retention policy. Your data is processed in real-time to generate a response and is immediately discarded from our servers.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container py-5 mb-5">
+        <div class="p-4 p-md-5 rounded-4 shadow-lg bg-white">
+            <div class="text-center mb-5 slide-up">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--brand-accent);">Reach Out</h6>
+                <h2 class="fw-bolder display-6 text-white">Contact Developer Support</h2>
+            </div>
+            <div class="row justify-content-center slide-up delay-1 align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="p-5 h-100 rounded-4 shadow" style="background-color: var(--brand-dark); border: 1px solid rgba(255,255,255,0.05);">
+                        <h3 class="fw-bold mb-4 text-white">Let's Connect</h3>
+                        <p class="text-light opacity-75 mb-5">Interested in integrating our ML API? Or need technical support? We're here 24/7.</p>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="fs-2 me-4" style="color: var(--brand-accent);"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1 text-white">Headquarters</h6>
+                                <p class="text-light opacity-75 mb-0">Sahiwal</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="fs-2 me-4" style="color: var(--brand-accent);"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1 text-white">Email Us</h6>
+                                <p class="text-light opacity-75 mb-0">zarosoftware@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 pe-lg-5">
+                    <form>
+                        <div class="row mb-4">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <label class="form-label fw-bold text-light">Your Name</label>
+                                <input type="text" class="form-control form-control-lg border-0" placeholder="Enter your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-light">Email Address</label>
+                                <input type="email" class="form-control form-control-lg border-0" placeholder="name@example.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-light">Subject</label>
+                            <input type="text" class="form-control form-control-lg border-0" placeholder="API access, bugs, etc." required>
+                        </div>
+                        <div class="mb-5">
+                            <label class="form-label fw-bold text-light">Message</label>
+                            <textarea class="form-control border-0 p-3" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-accent btn-lg w-100 rounded-pill shadow-sm py-3 fw-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pt-5 pb-3 mt-auto" style="background-color: var(--brand-dark); border-top: 2px solid var(--brand-accent);">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pe-lg-4">
+                    <h3 class="fw-bolder mb-3 d-flex align-items-center gap-2 text-white">
+                        <i class="bi bi-robot" style="color: var(--brand-accent);"></i> MediBot AI
+                    </h3>
+                    <p class="text-light opacity-75 small" style="line-height: 1.8;">
+                        MediBot uses Generative AI and custom ML classification models to make healthcare information accessible, fast, and reliable for everyone.
+                    </p>
+                    <div class="d-flex align-items-center gap-2 mt-4">
+                        <span class="fw-bold me-2 small text-light">Follow Us</span>
+                        <a href="https://github.com/ZRARAKBAR" class="text-white fs-5 mx-1"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-zrar-akbar-5656ba365/" class="text-white fs-5 mx-1"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-4" style="color: var(--brand-accent);">Platform</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="#about" class="text-decoration-none text-light opacity-75">About the Tech</a></li>
+                        <li class="mb-2"><a href="#features" class="text-decoration-none text-light opacity-75">AI Models</a></li>
+                        <li class="mb-2"><a href="#faq" class="text-decoration-none text-light opacity-75">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 ms-auto">
+                    <h5 class="fw-bold mb-4" style="color: var(--brand-accent);">Contact</h5>
+                    <ul class="list-unstyled small mb-4">
+                        <li class="mb-2"><a href="#contact" class="text-decoration-none text-light opacity-75">Developer Support</a></li>
+                        <li class="mb-2">
+                            <a href="mailto:zarosoftware@gmail.com" class="text-decoration-none text-light opacity-75">
+                               zarosoftware.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row border-top pt-4 mt-4 align-items-center" style="border-color: rgba(255,255,255,0.05) !important;">
+                <div class="col-md-7 text-center text-md-start mb-3 mb-md-0">
+                    <p class="text-light opacity-50 small mb-0">&copy; 2026 MediBot AI. All rights reserved.</p>
+                </div>
+                <div class="col-md-5 text-center text-md-end">
+                    <a href="#" class="text-decoration-none text-light opacity-50 small me-3">Privacy Policy</a>
+                    <span class="text-light opacity-25">|</span>
+                    <a href="#" class="text-decoration-none text-light opacity-50 small ms-3">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // Automatically trigger if a query exists
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('query');
+
+    if (initialQuery) {
+        // You can either redirect to chat with the query as a parameter
+        window.location.href = "/chat?query=" + encodeURIComponent(initialQuery);
+    }
+</script>
+</body>
+
+</html>
