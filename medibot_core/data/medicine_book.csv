@@ -1,0 +1,18 @@
+disease,medicine_name,dosage,precautions
+flu,Paracetamol,500mg 3x/day,After meals
+flu,Ibuprofen,200mg 2x/day,Take with water
+malaria,Chloroquine,250mg 2x/day,Avoid alcohol
+malaria,Artemether-Lumefantrine,20mg/120mg 2x/day,Complete full course
+migraine,Ibuprofen,200mg as needed,Take with water
+migraine,Paracetamol,500mg as needed,Do not exceed 4g/day
+cold,Antihistamine,10mg 1x/day,May cause drowsiness
+cold,Paracetamol,500mg 3x/day,After meals
+chickenpox,Calamine Lotion,Apply on affected area,External use only
+chickenpox,Paracetamol,500mg 3x/day,After meals
+dengue,Paracetamol,500mg 3x/day,Do not take NSAIDs
+diabetes,Metformin,500mg 2x/day,Take with meals
+diabetes,Insulin,As prescribed,Follow injection guidelines
+asthma,Salbutamol Inhaler,2 puffs as needed,Shake well before use
+typhoid,Ciprofloxacin,500mg 2x/day,Complete full course
+hepatitis,Silymarin,140mg 3x/day,After meals
+pneumonia,Amoxicillin,500mg 3x/day,Complete full course

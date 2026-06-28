@@ -1,0 +1,1035 @@
+2026-06-25 10:03:16,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 10:03:16,809 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 10:03:16,845 - INFO -  * Restarting with stat
+2026-06-25 10:03:17,907 - WARNING -  * Debugger is active!
+2026-06-25 10:03:17,913 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:03:22,998 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:22] "GET / HTTP/1.1" 200 -
+2026-06-25 10:03:23,252 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:23] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-25 10:03:23,263 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:23] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-25 10:03:23,417 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 10:03:35,324 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-25 10:03:35,324 - INFO - User: hello | Bot: I am currently undergoing maintenance. Please try ...
+2026-06-25 10:03:35,325 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:35] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:03:41,010 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-25 10:03:41,011 - INFO - User: hyy | Bot: I am currently undergoing maintenance. Please try ...
+2026-06-25 10:03:41,011 - INFO - 127.0.0.1 - - [25/Jun/2026 10:03:41] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:06:45,748 - INFO - 127.0.0.1 - - [25/Jun/2026 10:06:45] "GET / HTTP/1.1" 200 -
+2026-06-25 10:06:45,768 - INFO - 127.0.0.1 - - [25/Jun/2026 10:06:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 10:06:45,784 - INFO - 127.0.0.1 - - [25/Jun/2026 10:06:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 10:08:04,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 10:08:04,042 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 10:08:04,046 - INFO -  * Restarting with stat
+2026-06-25 10:08:04,849 - WARNING -  * Debugger is active!
+2026-06-25 10:08:04,854 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:08:11,734 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:11] "GET / HTTP/1.1" 200 -
+2026-06-25 10:08:11,964 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 10:08:11,986 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 10:08:12,123 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 10:08:22,632 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:08:22,643 - INFO - User: hyy | Bot: Hello. It's nice to meet you. How are you doing to...
+2026-06-25 10:08:22,643 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:22] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:08:38,551 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:08:38,552 - INFO - User: feeling the pain head | Bot: I'm so sorry to hear that you're experiencing head...
+2026-06-25 10:08:38,552 - INFO - 127.0.0.1 - - [25/Jun/2026 10:08:38] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:09:01,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:09:01,970 - INFO - User: i have headcahe | Bot: I'm so sorry to hear that you're experiencing a he...
+2026-06-25 10:09:01,970 - INFO - 127.0.0.1 - - [25/Jun/2026 10:09:01] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:09:23,775 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:09:23,776 - INFO - User: my name is zrar akbar | Bot: Hello Zrar Akbar, it's nice to meet you. I'm here ...
+2026-06-25 10:09:23,776 - INFO - 127.0.0.1 - - [25/Jun/2026 10:09:23] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:10:50,677 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 10:10:50,808 - INFO -  * Restarting with stat
+2026-06-25 10:10:51,571 - WARNING -  * Debugger is active!
+2026-06-25 10:10:51,578 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:10:54,616 - INFO - 127.0.0.1 - - [25/Jun/2026 10:10:54] "GET / HTTP/1.1" 200 -
+2026-06-25 10:10:54,728 - INFO - 127.0.0.1 - - [25/Jun/2026 10:10:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 10:10:54,729 - INFO - 127.0.0.1 - - [25/Jun/2026 10:10:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 10:11:07,879 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:11:07,890 - INFO - User: hello  i am zrar akbar | Bot: Hello Zrar Akbar, it's an honor to interact with y...
+2026-06-25 10:11:07,890 - INFO - 127.0.0.1 - - [25/Jun/2026 10:11:07] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:11:53,784 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 10:11:53,888 - INFO -  * Restarting with stat
+2026-06-25 10:14:05,602 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 10:14:05,602 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 10:14:05,604 - INFO -  * Restarting with stat
+2026-06-25 10:14:06,272 - WARNING -  * Debugger is active!
+2026-06-25 10:14:06,276 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:14:10,891 - INFO - 127.0.0.1 - - [25/Jun/2026 10:14:10] "GET / HTTP/1.1" 200 -
+2026-06-25 10:14:11,168 - INFO - 127.0.0.1 - - [25/Jun/2026 10:14:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 10:14:11,178 - INFO - 127.0.0.1 - - [25/Jun/2026 10:14:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 10:14:11,313 - INFO - 127.0.0.1 - - [25/Jun/2026 10:14:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 10:14:57,687 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 10:14:57,868 - INFO -  * Restarting with stat
+2026-06-25 10:14:58,583 - WARNING -  * Debugger is active!
+2026-06-25 10:14:58,587 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:15:00,332 - INFO - 127.0.0.1 - - [25/Jun/2026 10:15:00] "GET / HTTP/1.1" 200 -
+2026-06-25 10:15:00,450 - INFO - 127.0.0.1 - - [25/Jun/2026 10:15:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 10:15:00,452 - INFO - 127.0.0.1 - - [25/Jun/2026 10:15:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 10:15:15,609 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 10:15:15,620 - INFO - User: hyy io am zrar akbar | Bot: Hello Zrar Akbar, it's an honor to interact with y...
+2026-06-25 10:15:15,620 - INFO - 127.0.0.1 - - [25/Jun/2026 10:15:15] "POST /get HTTP/1.1" 200 -
+2026-06-25 10:31:08,182 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 10:31:08,348 - INFO -  * Restarting with stat
+2026-06-25 10:31:09,600 - WARNING -  * Debugger is active!
+2026-06-25 10:31:09,628 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:31:26,703 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 10:31:26,862 - INFO -  * Restarting with stat
+2026-06-25 10:31:28,124 - WARNING -  * Debugger is active!
+2026-06-25 10:31:28,130 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:31:50,367 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 10:31:50,589 - INFO -  * Restarting with stat
+2026-06-25 10:31:51,575 - WARNING -  * Debugger is active!
+2026-06-25 10:31:51,582 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:33:09,252 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 10:33:09,385 - INFO -  * Restarting with stat
+2026-06-25 10:33:11,052 - WARNING -  * Debugger is active!
+2026-06-25 10:33:11,067 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:50:04,298 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 10:50:04,299 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 10:50:04,304 - INFO -  * Restarting with stat
+2026-06-25 10:50:05,837 - WARNING -  * Debugger is active!
+2026-06-25 10:50:05,846 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:50:08,892 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:08] "GET / HTTP/1.1" 200 -
+2026-06-25 10:50:08,991 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:08] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 10:50:23,079 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:23] "GET / HTTP/1.1" 200 -
+2026-06-25 10:50:23,531 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:23] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 10:50:23,661 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 10:50:26,207 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:26] "GET / HTTP/1.1" 200 -
+2026-06-25 10:50:26,231 - INFO - 127.0.0.1 - - [25/Jun/2026 10:50:26] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 10:51:45,091 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 10:51:45,180 - INFO -  * Restarting with stat
+2026-06-25 10:53:55,061 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 10:53:55,062 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 10:53:55,064 - INFO -  * Restarting with stat
+2026-06-25 10:53:56,979 - WARNING -  * Debugger is active!
+2026-06-25 10:53:56,987 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 10:54:00,507 - INFO - 127.0.0.1 - - [25/Jun/2026 10:54:00] "GET / HTTP/1.1" 200 -
+2026-06-25 10:54:00,873 - INFO - 127.0.0.1 - - [25/Jun/2026 10:54:00] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 10:54:00,954 - INFO - 127.0.0.1 - - [25/Jun/2026 10:54:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 11:04:46,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 11:04:46,633 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 11:04:46,636 - INFO -  * Restarting with stat
+2026-06-25 11:04:47,582 - WARNING -  * Debugger is active!
+2026-06-25 11:04:47,590 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:04:50,771 - INFO - 127.0.0.1 - - [25/Jun/2026 11:04:50] "GET / HTTP/1.1" 200 -
+2026-06-25 11:04:51,034 - INFO - 127.0.0.1 - - [25/Jun/2026 11:04:51] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:04:51,061 - INFO - 127.0.0.1 - - [25/Jun/2026 11:04:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 11:06:13,301 - INFO - 127.0.0.1 - - [25/Jun/2026 11:06:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-06-25 11:08:52,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 11:08:52,214 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 11:08:52,215 - INFO -  * Restarting with stat
+2026-06-25 11:08:53,224 - WARNING -  * Debugger is active!
+2026-06-25 11:08:53,254 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:08:56,321 - INFO - 127.0.0.1 - - [25/Jun/2026 11:08:56] "GET / HTTP/1.1" 200 -
+2026-06-25 11:08:56,372 - INFO - 127.0.0.1 - - [25/Jun/2026 11:08:56] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:10:31,967 - INFO - 127.0.0.1 - - [25/Jun/2026 11:10:31] "GET / HTTP/1.1" 200 -
+2026-06-25 11:10:31,984 - INFO - 127.0.0.1 - - [25/Jun/2026 11:10:31] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:12:35,184 - INFO - 127.0.0.1 - - [25/Jun/2026 11:12:35] "GET / HTTP/1.1" 200 -
+2026-06-25 11:12:35,217 - INFO - 127.0.0.1 - - [25/Jun/2026 11:12:35] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:12:35,311 - INFO - 127.0.0.1 - - [25/Jun/2026 11:12:35] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-25 11:12:35,316 - INFO - 127.0.0.1 - - [25/Jun/2026 11:12:35] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-25 11:14:24,956 - INFO - 127.0.0.1 - - [25/Jun/2026 11:14:24] "GET / HTTP/1.1" 200 -
+2026-06-25 11:14:24,981 - INFO - 127.0.0.1 - - [25/Jun/2026 11:14:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:14:24,987 - INFO - 127.0.0.1 - - [25/Jun/2026 11:14:24] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:14:24,995 - INFO - 127.0.0.1 - - [25/Jun/2026 11:14:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:15:30,225 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:30] "GET / HTTP/1.1" 200 -
+2026-06-25 11:15:30,243 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:15:30,250 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:30] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:15:30,250 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:15:34,327 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:34] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-06-25 11:15:47,057 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:47] "GET / HTTP/1.1" 200 -
+2026-06-25 11:15:47,080 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:15:47,082 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:47] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:15:47,082 - INFO - 127.0.0.1 - - [25/Jun/2026 11:15:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:17:33,774 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:17:33,873 - INFO -  * Restarting with stat
+2026-06-25 11:17:34,691 - WARNING -  * Debugger is active!
+2026-06-25 11:17:34,696 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:17:41,364 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:41] "GET / HTTP/1.1" 200 -
+2026-06-25 11:17:41,387 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:41] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:17:41,467 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:17:41,480 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:17:59,004 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:59] "GET / HTTP/1.1" 200 -
+2026-06-25 11:17:59,028 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:17:59,028 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:59] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:17:59,029 - INFO - 127.0.0.1 - - [25/Jun/2026 11:17:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:18:46,453 - INFO - 127.0.0.1 - - [25/Jun/2026 11:18:46] "GET / HTTP/1.1" 200 -
+2026-06-25 11:18:46,478 - INFO - 127.0.0.1 - - [25/Jun/2026 11:18:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:18:46,484 - INFO - 127.0.0.1 - - [25/Jun/2026 11:18:46] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:18:46,487 - INFO - 127.0.0.1 - - [25/Jun/2026 11:18:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:18:48,087 - INFO - 127.0.0.1 - - [25/Jun/2026 11:18:48] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:19:38,556 - INFO - 127.0.0.1 - - [25/Jun/2026 11:19:38] "GET / HTTP/1.1" 200 -
+2026-06-25 11:19:38,574 - INFO - 127.0.0.1 - - [25/Jun/2026 11:19:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 11:19:38,576 - INFO - 127.0.0.1 - - [25/Jun/2026 11:19:38] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 11:19:38,585 - INFO - 127.0.0.1 - - [25/Jun/2026 11:19:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 11:19:40,320 - INFO - 127.0.0.1 - - [25/Jun/2026 11:19:40] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:21:52,374 - INFO - 127.0.0.1 - - [25/Jun/2026 11:21:52] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:21:54,353 - INFO - 127.0.0.1 - - [25/Jun/2026 11:21:54] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:21:59,264 - INFO - 127.0.0.1 - - [25/Jun/2026 11:21:59] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2026-06-25 11:22:56,343 - INFO - 127.0.0.1 - - [25/Jun/2026 11:22:56] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:24:25,784 - INFO - 127.0.0.1 - - [25/Jun/2026 11:24:25] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:24:30,312 - INFO - 127.0.0.1 - - [25/Jun/2026 11:24:30] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:25:23,744 - INFO - 127.0.0.1 - - [25/Jun/2026 11:25:23] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:26:28,302 - INFO - 127.0.0.1 - - [25/Jun/2026 11:26:28] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:26:48,744 - INFO - 127.0.0.1 - - [25/Jun/2026 11:26:48] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:26:50,213 - INFO - 127.0.0.1 - - [25/Jun/2026 11:26:50] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:27:26,353 - INFO - 127.0.0.1 - - [25/Jun/2026 11:27:26] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:28:01,440 - INFO - 127.0.0.1 - - [25/Jun/2026 11:28:01] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:28:10,953 - INFO - 127.0.0.1 - - [25/Jun/2026 11:28:10] "GET /register HTTP/1.1" 200 -
+2026-06-25 11:28:12,717 - INFO - 127.0.0.1 - - [25/Jun/2026 11:28:12] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:28:19,268 - INFO - 127.0.0.1 - - [25/Jun/2026 11:28:19] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+2026-06-25 11:30:31,930 - INFO - 127.0.0.1 - - [25/Jun/2026 11:30:31] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:30:39,643 - INFO - 127.0.0.1 - - [25/Jun/2026 11:30:39] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+2026-06-25 11:31:30,180 - INFO - 127.0.0.1 - - [25/Jun/2026 11:31:30] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+2026-06-25 11:31:37,443 - INFO - 127.0.0.1 - - [25/Jun/2026 11:31:37] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+2026-06-25 11:32:25,883 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:32:26,019 - INFO -  * Restarting with stat
+2026-06-25 11:32:26,729 - WARNING -  * Debugger is active!
+2026-06-25 11:32:26,734 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:32:43,687 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:32:43,779 - INFO -  * Restarting with stat
+2026-06-25 11:32:44,538 - WARNING -  * Debugger is active!
+2026-06-25 11:32:44,547 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:33:24,939 - INFO - 127.0.0.1 - - [25/Jun/2026 11:33:24] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:33:32,046 - INFO - 127.0.0.1 - - [25/Jun/2026 11:33:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-25 11:33:32,074 - INFO - 127.0.0.1 - - [25/Jun/2026 11:33:32] "[33mGET /chat HTTP/1.1[0m" 404 -
+2026-06-25 11:35:03,657 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:35:03,754 - INFO -  * Restarting with stat
+2026-06-25 11:35:04,516 - WARNING -  * Debugger is active!
+2026-06-25 11:35:04,521 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:35:05,647 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:35:05,757 - INFO -  * Restarting with stat
+2026-06-25 11:35:06,674 - WARNING -  * Debugger is active!
+2026-06-25 11:35:06,678 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:35:12,789 - INFO - 127.0.0.1 - - [25/Jun/2026 11:35:12] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:35:19,414 - INFO - 127.0.0.1 - - [25/Jun/2026 11:35:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-25 11:35:19,423 - INFO - 127.0.0.1 - - [25/Jun/2026 11:35:19] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:38:40,777 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:38:40,903 - INFO -  * Restarting with stat
+2026-06-25 11:38:41,512 - WARNING -  * Debugger is active!
+2026-06-25 11:38:41,517 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:38:50,026 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:38:50,294 - INFO -  * Restarting with stat
+2026-06-25 11:38:50,951 - WARNING -  * Debugger is active!
+2026-06-25 11:38:50,956 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:39:13,221 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:39:13,330 - INFO -  * Restarting with stat
+2026-06-25 11:39:14,147 - WARNING -  * Debugger is active!
+2026-06-25 11:39:14,157 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:39:30,235 - INFO - 127.0.0.1 - - [25/Jun/2026 11:39:30] "[33mGET /chat HTTP/1.1[0m" 404 -
+2026-06-25 11:42:06,355 - INFO - 127.0.0.1 - - [25/Jun/2026 11:42:06] "[33mGET /chat HTTP/1.1[0m" 404 -
+2026-06-25 11:44:25,042 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\app.py', reloading
+2026-06-25 11:44:25,147 - INFO -  * Restarting with stat
+2026-06-25 11:44:25,917 - WARNING -  * Debugger is active!
+2026-06-25 11:44:25,922 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 11:44:29,785 - INFO - 127.0.0.1 - - [25/Jun/2026 11:44:29] "GET /login HTTP/1.1" 200 -
+2026-06-25 11:44:36,864 - INFO - 127.0.0.1 - - [25/Jun/2026 11:44:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-25 11:44:36,875 - INFO - 127.0.0.1 - - [25/Jun/2026 11:44:36] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:44:44,884 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:44:44,894 - INFO - User: hyy | Bot Success
+2026-06-25 11:44:44,895 - INFO - 127.0.0.1 - - [25/Jun/2026 11:44:44] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:44:51,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:44:51,371 - INFO - User: i am zrar | Bot Success
+2026-06-25 11:44:51,371 - INFO - 127.0.0.1 - - [25/Jun/2026 11:44:51] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:48:29,339 - INFO - 127.0.0.1 - - [25/Jun/2026 11:48:29] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:49:12,109 - INFO - 127.0.0.1 - - [25/Jun/2026 11:49:12] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:49:19,211 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:49:19,212 - INFO - User: hy | Bot Success
+2026-06-25 11:49:19,213 - INFO - 127.0.0.1 - - [25/Jun/2026 11:49:19] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:49:37,526 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:49:37,527 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 11:49:37,528 - INFO - 127.0.0.1 - - [25/Jun/2026 11:49:37] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:50:26,775 - INFO - 127.0.0.1 - - [25/Jun/2026 11:50:26] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:50:33,785 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:50:33,786 - INFO - User: hyy | Bot Success
+2026-06-25 11:50:33,787 - INFO - 127.0.0.1 - - [25/Jun/2026 11:50:33] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:50:44,013 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:50:44,014 - INFO - User: how are you | Bot Success
+2026-06-25 11:50:44,015 - INFO - 127.0.0.1 - - [25/Jun/2026 11:50:44] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:52:08,580 - INFO - 127.0.0.1 - - [25/Jun/2026 11:52:08] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:52:12,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:52:12,990 - INFO - User: hyyy | Bot Success
+2026-06-25 11:52:12,991 - INFO - 127.0.0.1 - - [25/Jun/2026 11:52:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:54:24,012 - INFO - 127.0.0.1 - - [25/Jun/2026 11:54:24] "GET /chat HTTP/1.1" 200 -
+2026-06-25 11:54:27,719 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:54:27,720 - INFO - User: hyy | Bot Success
+2026-06-25 11:54:27,721 - INFO - 127.0.0.1 - - [25/Jun/2026 11:54:27] "POST /get HTTP/1.1" 200 -
+2026-06-25 11:54:38,549 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 11:54:38,550 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 11:54:38,551 - INFO - 127.0.0.1 - - [25/Jun/2026 11:54:38] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:12:21,379 - INFO - 127.0.0.1 - - [25/Jun/2026 12:12:21] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:13:11,627 - INFO - 127.0.0.1 - - [25/Jun/2026 12:13:11] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:15:46,097 - INFO - 127.0.0.1 - - [25/Jun/2026 12:15:46] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:16:06,992 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:16:06,994 - INFO - User: hy | Bot Success
+2026-06-25 12:16:06,995 - INFO - 127.0.0.1 - - [25/Jun/2026 12:16:06] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:16:26,408 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:16:26,409 - INFO - User: myre ser my dard hay | Bot Success
+2026-06-25 12:16:26,409 - INFO - 127.0.0.1 - - [25/Jun/2026 12:16:26] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:17:01,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:17:01,620 - INFO - User: why you dont give anser in roman urdu | Bot Success
+2026-06-25 12:17:01,621 - INFO - 127.0.0.1 - - [25/Jun/2026 12:17:01] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:17:30,055 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:17:30,056 - INFO - User: give answer roman urdu when i ask in like this kia haal hy | Bot Success
+2026-06-25 12:17:30,056 - INFO - 127.0.0.1 - - [25/Jun/2026 12:17:30] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:21:19,663 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:21:19,794 - INFO -  * Restarting with stat
+2026-06-25 12:24:23,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 12:24:23,139 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 12:24:23,143 - INFO -  * Restarting with stat
+2026-06-25 12:24:23,784 - WARNING -  * Debugger is active!
+2026-06-25 12:24:23,788 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:24:26,493 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:26] "GET / HTTP/1.1" 200 -
+2026-06-25 12:24:26,631 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:26] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:24:26,781 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:26] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-25 12:24:26,784 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:26] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-25 12:24:26,920 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 12:24:46,385 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:46] "GET / HTTP/1.1" 200 -
+2026-06-25 12:24:46,760 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:24:46,787 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:46] "[33mGET /static/images/doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:24:46,816 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:24:47,135 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 12:24:49,464 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:49] "GET /login HTTP/1.1" 200 -
+2026-06-25 12:24:57,414 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-25 12:24:57,426 - INFO - 127.0.0.1 - - [25/Jun/2026 12:24:57] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:25:04,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:25:04,469 - INFO - User: hyy | Bot Success
+2026-06-25 12:25:04,470 - INFO - 127.0.0.1 - - [25/Jun/2026 12:25:04] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:25:14,506 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:25:14,508 - INFO - User: how are you | Bot Success
+2026-06-25 12:25:14,509 - INFO - 127.0.0.1 - - [25/Jun/2026 12:25:14] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:25:24,793 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:25:24,794 - INFO - User: hello | Bot Success
+2026-06-25 12:25:24,794 - INFO - 127.0.0.1 - - [25/Jun/2026 12:25:24] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:25:43,133 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:25:43,273 - INFO -  * Restarting with stat
+2026-06-25 12:25:44,020 - WARNING -  * Debugger is active!
+2026-06-25 12:25:44,026 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:25:54,671 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:25:54,765 - INFO -  * Restarting with stat
+2026-06-25 12:25:55,798 - WARNING -  * Debugger is active!
+2026-06-25 12:25:55,803 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:25:56,939 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:25:57,039 - INFO -  * Restarting with stat
+2026-06-25 12:25:57,735 - WARNING -  * Debugger is active!
+2026-06-25 12:25:57,740 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:02,038 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:02,138 - INFO -  * Restarting with stat
+2026-06-25 12:26:02,747 - WARNING -  * Debugger is active!
+2026-06-25 12:26:02,751 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:08,097 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:08,193 - INFO -  * Restarting with stat
+2026-06-25 12:26:08,846 - WARNING -  * Debugger is active!
+2026-06-25 12:26:08,851 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:12,200 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:12,429 - INFO -  * Restarting with stat
+2026-06-25 12:26:13,182 - WARNING -  * Debugger is active!
+2026-06-25 12:26:13,186 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:14,345 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:14,447 - INFO -  * Restarting with stat
+2026-06-25 12:26:15,082 - WARNING -  * Debugger is active!
+2026-06-25 12:26:15,087 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:19,374 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:19,471 - INFO -  * Restarting with stat
+2026-06-25 12:26:20,248 - WARNING -  * Debugger is active!
+2026-06-25 12:26:20,252 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:26:30,696 - INFO - 127.0.0.1 - - [25/Jun/2026 12:26:30] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:26:33,871 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:26:33,916 - INFO - User: hy | Bot Success
+2026-06-25 12:26:33,916 - INFO - 127.0.0.1 - - [25/Jun/2026 12:26:33] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:26:44,732 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:26:44,844 - INFO -  * Restarting with stat
+2026-06-25 12:26:45,653 - WARNING -  * Debugger is active!
+2026-06-25 12:26:45,657 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:27:13,108 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:27:13,198 - INFO -  * Restarting with stat
+2026-06-25 12:27:13,790 - WARNING -  * Debugger is active!
+2026-06-25 12:27:13,794 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:27:17,028 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 12:27:17,140 - INFO -  * Restarting with stat
+2026-06-25 12:27:17,789 - WARNING -  * Debugger is active!
+2026-06-25 12:27:17,797 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:27:23,199 - INFO - 127.0.0.1 - - [25/Jun/2026 12:27:23] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:27:26,592 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:27:26,606 - INFO - User: hello | Bot Success
+2026-06-25 12:27:26,607 - INFO - 127.0.0.1 - - [25/Jun/2026 12:27:26] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:27:30,427 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:27:30,428 - INFO - User: hyy | Bot Success
+2026-06-25 12:27:30,428 - INFO - 127.0.0.1 - - [25/Jun/2026 12:27:30] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:27:48,812 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 12:27:48,813 - INFO - User: asslamu alaikum | Bot Success
+2026-06-25 12:27:48,813 - INFO - 127.0.0.1 - - [25/Jun/2026 12:27:48] "POST /get HTTP/1.1" 200 -
+2026-06-25 12:30:25,357 - INFO - 127.0.0.1 - - [25/Jun/2026 12:30:25] "GET / HTTP/1.1" 200 -
+2026-06-25 12:30:25,369 - INFO - 127.0.0.1 - - [25/Jun/2026 12:30:25] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:30:25,469 - INFO - 127.0.0.1 - - [25/Jun/2026 12:30:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:30:25,475 - INFO - 127.0.0.1 - - [25/Jun/2026 12:30:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:31:05,474 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:05] "GET / HTTP/1.1" 200 -
+2026-06-25 12:31:05,503 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:31:05,507 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:05] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:31:05,521 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:31:10,998 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:10] "GET / HTTP/1.1" 200 -
+2026-06-25 12:31:11,223 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:31:11,234 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:11] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:31:11,235 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:31:11,484 - INFO - 127.0.0.1 - - [25/Jun/2026 12:31:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 12:34:58,074 - INFO - 127.0.0.1 - - [25/Jun/2026 12:34:58] "GET / HTTP/1.1" 200 -
+2026-06-25 12:34:58,130 - INFO - 127.0.0.1 - - [25/Jun/2026 12:34:58] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:34:58,942 - INFO - 127.0.0.1 - - [25/Jun/2026 12:34:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 12:41:33,451 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "GET / HTTP/1.1" 200 -
+2026-06-25 12:41:33,474 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:33,497 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:41:33,510 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:33,513 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:33,514 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:33] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:41:51,102 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "GET / HTTP/1.1" 200 -
+2026-06-25 12:41:51,121 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:51,151 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:41:51,159 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:51,173 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:41:51,176 - INFO - 127.0.0.1 - - [25/Jun/2026 12:41:51] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:46:15,632 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "GET / HTTP/1.1" 200 -
+2026-06-25 12:46:15,660 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:15,672 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:15,679 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:15,701 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:46:15,730 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:15] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:46:17,350 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "GET / HTTP/1.1" 200 -
+2026-06-25 12:46:17,372 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:17,384 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:17,389 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:17,402 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:46:17,422 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:17] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:46:26,999 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:26] "GET / HTTP/1.1" 200 -
+2026-06-25 12:46:27,034 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:27] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:27,044 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:27] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:27,046 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:27] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:46:27,049 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:27] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:46:27,053 - INFO - 127.0.0.1 - - [25/Jun/2026 12:46:27] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:47:22,370 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "GET / HTTP/1.1" 200 -
+2026-06-25 12:47:22,431 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:22,433 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:22,436 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:22,471 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:47:22,480 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:22] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:47:43,984 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 12:47:43,984 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 12:47:43,987 - INFO -  * Restarting with stat
+2026-06-25 12:47:44,968 - WARNING -  * Debugger is active!
+2026-06-25 12:47:44,974 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 12:47:48,577 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "GET / HTTP/1.1" 200 -
+2026-06-25 12:47:48,646 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:48,668 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:48,678 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:47:48,714 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:47:48,716 - INFO - 127.0.0.1 - - [25/Jun/2026 12:47:48] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:48:45,176 - INFO - 127.0.0.1 - - [25/Jun/2026 12:48:45] "GET / HTTP/1.1" 200 -
+2026-06-25 12:49:24,422 - INFO - 127.0.0.1 - - [25/Jun/2026 12:49:24] "GET / HTTP/1.1" 200 -
+2026-06-25 12:49:24,447 - INFO - 127.0.0.1 - - [25/Jun/2026 12:49:24] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:49:24,533 - INFO - 127.0.0.1 - - [25/Jun/2026 12:49:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:49:24,536 - INFO - 127.0.0.1 - - [25/Jun/2026 12:49:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:50:43,324 - INFO - 127.0.0.1 - - [25/Jun/2026 12:50:43] "GET / HTTP/1.1" 200 -
+2026-06-25 12:50:43,447 - INFO - 127.0.0.1 - - [25/Jun/2026 12:50:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:50:43,462 - INFO - 127.0.0.1 - - [25/Jun/2026 12:50:43] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:50:43,462 - INFO - 127.0.0.1 - - [25/Jun/2026 12:50:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:50:46,476 - INFO - 127.0.0.1 - - [25/Jun/2026 12:50:46] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:51:17,262 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:17] "GET / HTTP/1.1" 200 -
+2026-06-25 12:51:17,284 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:51:17,295 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:51:17,301 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:17] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:51:45,956 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:45] "GET / HTTP/1.1" 200 -
+2026-06-25 12:51:45,974 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:51:45,978 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:45] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:51:45,985 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:51:47,354 - INFO - 127.0.0.1 - - [25/Jun/2026 12:51:47] "GET /chat HTTP/1.1" 200 -
+2026-06-25 12:52:05,035 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:05] "GET / HTTP/1.1" 200 -
+2026-06-25 12:52:05,049 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-25 12:52:05,059 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-25 12:52:05,062 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:05] "[33mGET /doctor.png HTTP/1.1[0m" 404 -
+2026-06-25 12:52:33,707 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:33] "GET / HTTP/1.1" 200 -
+2026-06-25 12:52:33,733 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:33] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:33,758 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:33] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:33,760 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:33] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:33,774 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:33] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:52:47,203 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:47] "GET / HTTP/1.1" 200 -
+2026-06-25 12:52:47,228 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:47] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:47,245 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:47] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:47,250 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:47] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:52:47,256 - INFO - 127.0.0.1 - - [25/Jun/2026 12:52:47] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 12:53:23,159 - INFO - 127.0.0.1 - - [25/Jun/2026 12:53:23] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2026-06-25 12:55:35,842 - INFO - 127.0.0.1 - - [25/Jun/2026 12:55:35] "GET / HTTP/1.1" 200 -
+2026-06-25 12:55:35,861 - INFO - 127.0.0.1 - - [25/Jun/2026 12:55:35] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 12:55:35,874 - INFO - 127.0.0.1 - - [25/Jun/2026 12:55:35] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 12:55:35,877 - INFO - 127.0.0.1 - - [25/Jun/2026 12:55:35] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 12:55:35,885 - INFO - 127.0.0.1 - - [25/Jun/2026 12:55:35] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:01:46,056 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:46] "GET / HTTP/1.1" 200 -
+2026-06-25 13:01:46,080 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:46] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:01:46,097 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:46] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:01:46,100 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:46] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:01:46,112 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:46] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:01:47,692 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:47] "GET / HTTP/1.1" 200 -
+2026-06-25 13:01:47,720 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:47] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:01:47,726 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:47] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:01:47,731 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:47] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:01:47,741 - INFO - 127.0.0.1 - - [25/Jun/2026 13:01:47] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:04:17,380 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:17] "GET / HTTP/1.1" 200 -
+2026-06-25 13:04:17,400 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:17] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:04:17,414 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:17] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:04:17,423 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:17] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:04:17,424 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:17] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:04:24,858 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:24] "[33mGET /chat.html?query=hleeo+ HTTP/1.1[0m" 404 -
+2026-06-25 13:04:50,556 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:50] "[33mGET /chat.html?query=hleeo+ HTTP/1.1[0m" 404 -
+2026-06-25 13:04:54,717 - INFO - 127.0.0.1 - - [25/Jun/2026 13:04:54] "[33mGET /chat.html?query=hleeo+ HTTP/1.1[0m" 404 -
+2026-06-25 13:07:22,141 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:22] "[33mGET /chat.html?query=hleeo+ HTTP/1.1[0m" 404 -
+2026-06-25 13:07:25,246 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:25] "GET / HTTP/1.1" 200 -
+2026-06-25 13:07:25,263 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:25] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:07:25,275 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:25] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:07:25,284 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:25] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:07:25,286 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:25] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:07:30,044 - INFO - 127.0.0.1 - - [25/Jun/2026 13:07:30] "GET /chat?query=hleeo+ HTTP/1.1" 200 -
+2026-06-25 13:10:13,599 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:13] "GET / HTTP/1.1" 200 -
+2026-06-25 13:10:13,623 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:13] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:10:13,642 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:13] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:10:13,644 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:13] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:10:13,653 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:13] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:10:19,672 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:19] "GET /chat?query=hello+ HTTP/1.1" 200 -
+2026-06-25 13:10:20,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:10:20,592 - INFO - User: hello  | Bot Success
+2026-06-25 13:10:20,592 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:20] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:10:23,235 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:10:23,236 - INFO - User: hy | Bot Success
+2026-06-25 13:10:23,236 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:23] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:10:32,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:10:32,570 - INFO - User: hello | Bot Success
+2026-06-25 13:10:32,571 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:32] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:10:43,021 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:10:43,023 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 13:10:43,023 - INFO - 127.0.0.1 - - [25/Jun/2026 13:10:43] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:12:47,636 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:47] "GET / HTTP/1.1" 200 -
+2026-06-25 13:12:47,657 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:47] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:12:47,679 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:47] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:12:47,683 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:47] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:12:47,701 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:47] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:12:52,528 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:52] "GET /chat?query=heloo+ HTTP/1.1" 200 -
+2026-06-25 13:12:53,387 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:12:53,388 - INFO - User: heloo  | Bot Success
+2026-06-25 13:12:53,389 - INFO - 127.0.0.1 - - [25/Jun/2026 13:12:53] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:13:27,823 - INFO - 127.0.0.1 - - [25/Jun/2026 13:13:27] "GET /chat?query=ww HTTP/1.1" 200 -
+2026-06-25 13:13:29,060 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:13:29,061 - INFO - User: ww | Bot Success
+2026-06-25 13:13:29,062 - INFO - 127.0.0.1 - - [25/Jun/2026 13:13:29] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:13:36,238 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:13:36,239 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 13:13:36,239 - INFO - 127.0.0.1 - - [25/Jun/2026 13:13:36] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:15:41,970 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 13:15:42,294 - INFO -  * Restarting with stat
+2026-06-25 13:15:43,208 - WARNING -  * Debugger is active!
+2026-06-25 13:15:43,215 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 13:15:45,907 - INFO - 127.0.0.1 - - [25/Jun/2026 13:15:45] "GET /chat?query=ww HTTP/1.1" 200 -
+2026-06-25 13:15:46,739 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:15:46,752 - INFO - User: ww | Bot Success
+2026-06-25 13:15:46,752 - INFO - 127.0.0.1 - - [25/Jun/2026 13:15:46] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:15:50,473 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:15:50,475 - INFO - User: hyy | Bot Success
+2026-06-25 13:15:50,476 - INFO - 127.0.0.1 - - [25/Jun/2026 13:15:50] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:16:00,586 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:16:00,588 - INFO - User: i am zrrar akbar | Bot Success
+2026-06-25 13:16:00,588 - INFO - 127.0.0.1 - - [25/Jun/2026 13:16:00] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:16:12,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:16:12,137 - INFO - User: zrar akbar | Bot Success
+2026-06-25 13:16:12,137 - INFO - 127.0.0.1 - - [25/Jun/2026 13:16:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:16:40,684 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:16:40,687 - INFO - User: i  am zrar akbar you have to speak in englidsh | Bot Success
+2026-06-25 13:16:40,687 - INFO - 127.0.0.1 - - [25/Jun/2026 13:16:40] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:18:02,880 - INFO - 127.0.0.1 - - [25/Jun/2026 13:18:02] "GET /chat?query=ww HTTP/1.1" 200 -
+2026-06-25 13:18:03,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:18:03,639 - INFO - User: ww | Bot Success
+2026-06-25 13:18:03,639 - INFO - 127.0.0.1 - - [25/Jun/2026 13:18:03] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:18:30,049 - INFO - 127.0.0.1 - - [25/Jun/2026 13:18:30] "GET /chat?query=ww HTTP/1.1" 200 -
+2026-06-25 13:18:30,512 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 13:18:30,513 - INFO - User: ww | Bot Success
+2026-06-25 13:18:30,514 - INFO - 127.0.0.1 - - [25/Jun/2026 13:18:30] "POST /get HTTP/1.1" 200 -
+2026-06-25 13:42:07,116 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:07] "GET / HTTP/1.1" 200 -
+2026-06-25 13:42:07,131 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:07] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:07,177 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:07] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:07,180 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:07] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:07,192 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:07] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:42:55,524 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:55] "GET / HTTP/1.1" 200 -
+2026-06-25 13:42:55,546 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:55] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:55,569 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:55] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:55,578 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:55] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:42:55,584 - INFO - 127.0.0.1 - - [25/Jun/2026 13:42:55] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 13:44:13,841 - INFO - 127.0.0.1 - - [25/Jun/2026 13:44:13] "GET / HTTP/1.1" 200 -
+2026-06-25 13:44:13,862 - INFO - 127.0.0.1 - - [25/Jun/2026 13:44:13] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 13:44:13,879 - INFO - 127.0.0.1 - - [25/Jun/2026 13:44:13] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 13:44:13,886 - INFO - 127.0.0.1 - - [25/Jun/2026 13:44:13] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 13:44:13,891 - INFO - 127.0.0.1 - - [25/Jun/2026 13:44:13] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:07:58,813 - INFO - 127.0.0.1 - - [25/Jun/2026 14:07:58] "GET /chat?query=yy HTTP/1.1" 200 -
+2026-06-25 14:08:00,106 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:08:00,109 - INFO - User: yy | Bot Success
+2026-06-25 14:08:00,110 - INFO - 127.0.0.1 - - [25/Jun/2026 14:08:00] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:08:09,869 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:08:09,870 - INFO - User: helloo how are you | Bot Success
+2026-06-25 14:08:09,870 - INFO - 127.0.0.1 - - [25/Jun/2026 14:08:09] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:08:39,735 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:08:39,737 - INFO - User: kia hal ha | Bot Success
+2026-06-25 14:08:39,737 - INFO - 127.0.0.1 - - [25/Jun/2026 14:08:39] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:09:04,070 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:09:04,071 - INFO - User: myre ser my dard horha kia kro | Bot Success
+2026-06-25 14:09:04,072 - INFO - 127.0.0.1 - - [25/Jun/2026 14:09:04] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:09:32,687 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:09:32,689 - INFO - User: hahah | Bot Success
+2026-06-25 14:09:32,690 - INFO - 127.0.0.1 - - [25/Jun/2026 14:09:32] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:09:49,002 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:09:49,003 - INFO - User: ha ha means  i am laughing | Bot Success
+2026-06-25 14:09:49,003 - INFO - 127.0.0.1 - - [25/Jun/2026 14:09:49] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:10:05,679 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:10:05,681 - INFO - User: i feeling headvhe | Bot Success
+2026-06-25 14:10:05,681 - INFO - 127.0.0.1 - - [25/Jun/2026 14:10:05] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:10:17,801 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:10:17,802 - INFO - User: talk in english | Bot Success
+2026-06-25 14:10:17,803 - INFO - 127.0.0.1 - - [25/Jun/2026 14:10:17] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:10:55,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:10:55,327 - INFO - User: yeah   i feeling mot well today my legs are shievering body are getting cold | Bot Success
+2026-06-25 14:10:55,327 - INFO - 127.0.0.1 - - [25/Jun/2026 14:10:55] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:17:08,284 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:08] "GET / HTTP/1.1" 200 -
+2026-06-25 14:17:08,307 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:08] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:08,351 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:08] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:08,353 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:08] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:17:08,366 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:08] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:41,179 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:41] "GET / HTTP/1.1" 200 -
+2026-06-25 14:17:41,200 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:41] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:41,215 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:41] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:41,217 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:41] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:17:41,223 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:41] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:17:44,181 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:44] "[33mGET /www.linkedin.com/in/muhammad-zrar-akbar-5656ba365 HTTP/1.1[0m" 404 -
+2026-06-25 14:17:55,294 - INFO - 127.0.0.1 - - [25/Jun/2026 14:17:55] "[33mGET /www.linkedin.com/in/muhammad-zrar-akbar-5656ba365 HTTP/1.1[0m" 404 -
+2026-06-25 14:18:40,164 - INFO - 127.0.0.1 - - [25/Jun/2026 14:18:40] "GET / HTTP/1.1" 200 -
+2026-06-25 14:18:40,188 - INFO - 127.0.0.1 - - [25/Jun/2026 14:18:40] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:18:40,208 - INFO - 127.0.0.1 - - [25/Jun/2026 14:18:40] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:18:40,212 - INFO - 127.0.0.1 - - [25/Jun/2026 14:18:40] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:18:40,215 - INFO - 127.0.0.1 - - [25/Jun/2026 14:18:40] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:23:55,995 - INFO - 127.0.0.1 - - [25/Jun/2026 14:23:55] "GET / HTTP/1.1" 200 -
+2026-06-25 14:23:56,020 - INFO - 127.0.0.1 - - [25/Jun/2026 14:23:56] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:23:56,035 - INFO - 127.0.0.1 - - [25/Jun/2026 14:23:56] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:23:56,038 - INFO - 127.0.0.1 - - [25/Jun/2026 14:23:56] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:23:56,040 - INFO - 127.0.0.1 - - [25/Jun/2026 14:23:56] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:24:10,537 - INFO - 127.0.0.1 - - [25/Jun/2026 14:24:10] "GET /chat?query=hello+ HTTP/1.1" 200 -
+2026-06-25 14:24:11,743 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:24:11,744 - INFO - User: hello  | Bot Success
+2026-06-25 14:24:11,745 - INFO - 127.0.0.1 - - [25/Jun/2026 14:24:11] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:24:24,592 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:24:24,594 - INFO - User: hii i have headvhe suggest any mmedicine | Bot Success
+2026-06-25 14:24:24,594 - INFO - 127.0.0.1 - - [25/Jun/2026 14:24:24] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:24:54,760 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:24:54,760 - INFO - User: why you alwaysy give anaswer in urdu  as i aksing ijn english you have to giuve answer in english | Bot Success
+2026-06-25 14:24:54,761 - INFO - 127.0.0.1 - - [25/Jun/2026 14:24:54] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:25:12,044 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:25:12,046 - INFO - User: so follow that rulle | Bot Success
+2026-06-25 14:25:12,047 - INFO - 127.0.0.1 - - [25/Jun/2026 14:25:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:25:23,264 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:25:23,265 - INFO - User: always folloow that rule | Bot Success
+2026-06-25 14:25:23,265 - INFO - 127.0.0.1 - - [25/Jun/2026 14:25:23] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:25:30,477 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:25:30,479 - INFO - User: save in memory that rule | Bot Success
+2026-06-25 14:25:30,479 - INFO - 127.0.0.1 - - [25/Jun/2026 14:25:30] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:26:13,521 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:26:13,522 - INFO - User: okay well  save the rule in memory | Bot Success
+2026-06-25 14:26:13,522 - INFO - 127.0.0.1 - - [25/Jun/2026 14:26:13] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:32:58,336 - INFO - 127.0.0.1 - - [25/Jun/2026 14:32:58] "GET / HTTP/1.1" 200 -
+2026-06-25 14:32:58,369 - INFO - 127.0.0.1 - - [25/Jun/2026 14:32:58] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:32:58,383 - INFO - 127.0.0.1 - - [25/Jun/2026 14:32:58] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:32:58,385 - INFO - 127.0.0.1 - - [25/Jun/2026 14:32:58] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:32:58,387 - INFO - 127.0.0.1 - - [25/Jun/2026 14:32:58] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:34:02,997 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:02] "GET / HTTP/1.1" 200 -
+2026-06-25 14:34:03,022 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:03] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:03,039 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:03] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:03,040 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:03] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:03,053 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:03] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:34:04,735 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:04] "GET / HTTP/1.1" 200 -
+2026-06-25 14:34:04,775 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:04] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:04,776 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:04] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:04,783 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:04] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:34:04,788 - INFO - 127.0.0.1 - - [25/Jun/2026 14:34:04] "[33mGET /transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:35:33,223 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:33] "GET / HTTP/1.1" 200 -
+2026-06-25 14:35:33,246 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:33] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:33,260 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:33] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:33,262 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:33] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:33,267 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:33] "[33mGET /static/transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:35:34,168 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:34] "GET / HTTP/1.1" 200 -
+2026-06-25 14:35:34,194 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:34] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:34,211 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:34] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:34,214 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:34] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:35:34,218 - INFO - 127.0.0.1 - - [25/Jun/2026 14:35:34] "[33mGET /static/transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:36:00,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 14:36:00,462 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 14:36:00,465 - INFO -  * Restarting with stat
+2026-06-25 14:36:01,254 - WARNING -  * Debugger is active!
+2026-06-25 14:36:01,264 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 14:36:04,463 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:04] "GET / HTTP/1.1" 200 -
+2026-06-25 14:36:04,654 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:04] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:04,657 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:04] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:04,674 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:04] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:04,678 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:04] "[33mGET /static/transform.mp4 HTTP/1.1[0m" 404 -
+2026-06-25 14:36:43,208 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:43] "GET / HTTP/1.1" 200 -
+2026-06-25 14:36:43,233 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:43] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:43,249 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:43] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:43,251 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:43] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:36:43,365 - INFO - 127.0.0.1 - - [25/Jun/2026 14:36:43] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:38:29,800 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:29] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:38:29,808 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:29] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:38:32,699 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:32] "GET / HTTP/1.1" 200 -
+2026-06-25 14:38:32,724 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:32] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:38:32,734 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:32] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:38:32,743 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:32] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:38:32,746 - INFO - 127.0.0.1 - - [25/Jun/2026 14:38:32] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:39:27,576 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "GET / HTTP/1.1" 200 -
+2026-06-25 14:39:27,601 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:39:27,612 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:39:27,616 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:39:27,620 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:39:27,669 - INFO - 127.0.0.1 - - [25/Jun/2026 14:39:27] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:40:47,245 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:47] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:40:48,656 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:48] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:40:55,532 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:55] "GET / HTTP/1.1" 200 -
+2026-06-25 14:40:55,554 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:55] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:40:55,579 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:55] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:40:55,580 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:55] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:40:55,597 - INFO - 127.0.0.1 - - [25/Jun/2026 14:40:55] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:42:40,143 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:40] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:42:40,152 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:40] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:42:42,767 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:42] "GET / HTTP/1.1" 200 -
+2026-06-25 14:42:42,790 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:42] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:42:42,802 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:42] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:42:42,809 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:42] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:42:42,812 - INFO - 127.0.0.1 - - [25/Jun/2026 14:42:42] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:44:56,447 - INFO - 127.0.0.1 - - [25/Jun/2026 14:44:56] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:44:56,451 - INFO - 127.0.0.1 - - [25/Jun/2026 14:44:56] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:45:02,392 - INFO - 127.0.0.1 - - [25/Jun/2026 14:45:02] "GET / HTTP/1.1" 200 -
+2026-06-25 14:45:02,410 - INFO - 127.0.0.1 - - [25/Jun/2026 14:45:02] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:45:02,422 - INFO - 127.0.0.1 - - [25/Jun/2026 14:45:02] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:45:02,426 - INFO - 127.0.0.1 - - [25/Jun/2026 14:45:02] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:45:02,435 - INFO - 127.0.0.1 - - [25/Jun/2026 14:45:02] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:46:00,308 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:00] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:46:00,312 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:00] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:46:06,694 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:06] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:46:07,439 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "GET / HTTP/1.1" 200 -
+2026-06-25 14:46:07,462 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:46:07,474 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:46:07,482 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:46:07,487 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:46:07,577 - INFO - 127.0.0.1 - - [25/Jun/2026 14:46:07] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:47:52,363 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:52] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:47:52,377 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:52] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:47:54,011 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:54] "GET / HTTP/1.1" 200 -
+2026-06-25 14:47:54,036 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:54] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:47:54,056 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:54] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:47:54,062 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:54] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:47:54,064 - INFO - 127.0.0.1 - - [25/Jun/2026 14:47:54] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:34,111 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:34] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:34,115 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:34] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:35,320 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:35] "GET / HTTP/1.1" 200 -
+2026-06-25 14:50:35,345 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:35] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:35,361 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:35] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:35,363 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:35] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:35,368 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:35] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:57,173 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "GET / HTTP/1.1" 200 -
+2026-06-25 14:50:57,199 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:57,209 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:57,211 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:50:57,225 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:57,266 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:57] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:50:59,971 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:59] "GET / HTTP/1.1" 200 -
+2026-06-25 14:50:59,994 - INFO - 127.0.0.1 - - [25/Jun/2026 14:50:59] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,014 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,038 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,048 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:51:00,182 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "GET / HTTP/1.1" 200 -
+2026-06-25 14:51:00,206 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,220 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,226 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 14:51:00,231 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:51:00,241 - INFO - 127.0.0.1 - - [25/Jun/2026 14:51:00] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:52:36,432 - INFO - 127.0.0.1 - - [25/Jun/2026 14:52:36] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 14:52:41,763 - INFO - 127.0.0.1 - - [25/Jun/2026 14:52:41] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 14:52:43,365 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:52:43,385 - INFO - User: heleo  | Bot Success
+2026-06-25 14:52:43,385 - INFO - 127.0.0.1 - - [25/Jun/2026 14:52:43] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:52:47,508 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:52:47,509 - INFO - User: hyy how are yuou | Bot Success
+2026-06-25 14:52:47,509 - INFO - 127.0.0.1 - - [25/Jun/2026 14:52:47] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:53:03,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:53:03,421 - INFO - User: am good | Bot Success
+2026-06-25 14:53:03,422 - INFO - 127.0.0.1 - - [25/Jun/2026 14:53:03] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:53:08,569 - INFO - 127.0.0.1 - - [25/Jun/2026 14:53:08] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 14:53:09,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:53:09,568 - INFO - User: heleo  | Bot Success
+2026-06-25 14:53:09,568 - INFO - 127.0.0.1 - - [25/Jun/2026 14:53:09] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:53:56,159 - INFO - 127.0.0.1 - - [25/Jun/2026 14:53:56] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 14:53:59,533 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:53:59,534 - INFO - User: heleo  | Bot Success
+2026-06-25 14:53:59,534 - INFO - 127.0.0.1 - - [25/Jun/2026 14:53:59] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:54:03,657 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:54:03,658 - INFO - User: heelo | Bot Success
+2026-06-25 14:54:03,658 - INFO - 127.0.0.1 - - [25/Jun/2026 14:54:03] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:54:12,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:54:12,557 - INFO - User: kiaa haal hy | Bot Success
+2026-06-25 14:54:12,557 - INFO - 127.0.0.1 - - [25/Jun/2026 14:54:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:54:24,642 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:54:24,643 - INFO - User: my zrar akbar hn | Bot Success
+2026-06-25 14:54:24,644 - INFO - 127.0.0.1 - - [25/Jun/2026 14:54:24] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:55:10,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:55:10,639 - INFO - User: why your are speaking in hindhi at kast you said sahta why not pakistani roman urdu  madad ?? \ | Bot Success
+2026-06-25 14:55:10,639 - INFO - 127.0.0.1 - - [25/Jun/2026 14:55:10] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:55:25,223 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:55:25,224 - INFO - User: you know the rule ?? | Bot Success
+2026-06-25 14:55:25,225 - INFO - 127.0.0.1 - - [25/Jun/2026 14:55:25] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:55:40,047 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:55:40,048 - INFO - User: what is the rulwe ?? | Bot Success
+2026-06-25 14:55:40,048 - INFO - 127.0.0.1 - - [25/Jun/2026 14:55:40] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:55:55,984 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:55:55,985 - INFO - User: save this rule into your memory | Bot Success
+2026-06-25 14:55:55,986 - INFO - 127.0.0.1 - - [25/Jun/2026 14:55:55] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:56:03,222 - INFO - 127.0.0.1 - - [25/Jun/2026 14:56:03] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 14:56:04,152 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:56:04,153 - INFO - User: heleo  | Bot Success
+2026-06-25 14:56:04,154 - INFO - 127.0.0.1 - - [25/Jun/2026 14:56:04] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:56:23,926 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:56:23,929 - INFO - User: hello how are you ?? | Bot Success
+2026-06-25 14:56:23,930 - INFO - 127.0.0.1 - - [25/Jun/2026 14:56:23] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:56:38,584 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:56:38,586 - INFO - User: okay i am zrar akbar | Bot Success
+2026-06-25 14:56:38,586 - INFO - 127.0.0.1 - - [25/Jun/2026 14:56:38] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:58:02,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:58:02,445 - INFO - User: today  my legs are shivering  and my body is gettng cold | Bot Success
+2026-06-25 14:58:02,447 - INFO - 127.0.0.1 - - [25/Jun/2026 14:58:02] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:58:24,613 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:58:24,616 - INFO - User: suggest  me a meicine | Bot Success
+2026-06-25 14:58:24,617 - INFO - 127.0.0.1 - - [25/Jun/2026 14:58:24] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:58:55,700 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:58:55,702 - INFO - User: this is for leg sheviring and cold body | Bot Success
+2026-06-25 14:58:55,703 - INFO - 127.0.0.1 - - [25/Jun/2026 14:58:55] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:59:11,356 - INFO - 127.0.0.1 - - [25/Jun/2026 14:59:11] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 14:59:11,910 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:59:11,911 - INFO - User: heleo  | Bot Success
+2026-06-25 14:59:11,912 - INFO - 127.0.0.1 - - [25/Jun/2026 14:59:11] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:59:31,255 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:59:31,263 - INFO - User: hello how are you ?? | Bot Success
+2026-06-25 14:59:31,269 - INFO - 127.0.0.1 - - [25/Jun/2026 14:59:31] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:59:36,122 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:59:36,123 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 14:59:36,124 - INFO - 127.0.0.1 - - [25/Jun/2026 14:59:36] "POST /get HTTP/1.1" 200 -
+2026-06-25 14:59:54,685 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 14:59:54,688 - INFO - User: today my legs are shievring and body is getting cold | Bot Success
+2026-06-25 14:59:54,689 - INFO - 127.0.0.1 - - [25/Jun/2026 14:59:54] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:00:08,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:00:08,971 - INFO - User: i have fever | Bot Success
+2026-06-25 15:00:08,972 - INFO - 127.0.0.1 - - [25/Jun/2026 15:00:08] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:00:26,622 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:00:26,623 - INFO - User: suggest me a medicine for this | Bot Success
+2026-06-25 15:00:26,623 - INFO - 127.0.0.1 - - [25/Jun/2026 15:00:26] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:00:46,668 - INFO - 127.0.0.1 - - [25/Jun/2026 15:00:46] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 15:00:47,980 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:00:47,982 - INFO - User: heleo  | Bot Success
+2026-06-25 15:00:47,982 - INFO - 127.0.0.1 - - [25/Jun/2026 15:00:47] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:01:06,371 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:01:06,374 - INFO - User: hello   how are you? | Bot Success
+2026-06-25 15:01:06,375 - INFO - 127.0.0.1 - - [25/Jun/2026 15:01:06] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:01:27,614 - INFO - 127.0.0.1 - - [25/Jun/2026 15:01:27] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 15:01:28,489 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:01:28,490 - INFO - User: heleo  | Bot Success
+2026-06-25 15:01:28,490 - INFO - 127.0.0.1 - - [25/Jun/2026 15:01:28] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:01:54,020 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:01:54,021 - INFO - User: hello how are you ?? | Bot Success
+2026-06-25 15:01:54,022 - INFO - 127.0.0.1 - - [25/Jun/2026 15:01:54] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:02:01,138 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:02:01,144 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 15:02:01,144 - INFO - 127.0.0.1 - - [25/Jun/2026 15:02:01] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:02:15,486 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:02:15,488 - INFO - User: okay who is your deveopler | Bot Success
+2026-06-25 15:02:15,489 - INFO - 127.0.0.1 - - [25/Jun/2026 15:02:15] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:02:52,958 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:02:53,102 - INFO -  * Restarting with stat
+2026-06-25 15:02:54,326 - WARNING -  * Debugger is active!
+2026-06-25 15:02:54,334 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:02:56,634 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:02:56,753 - INFO -  * Restarting with stat
+2026-06-25 15:02:57,781 - WARNING -  * Debugger is active!
+2026-06-25 15:02:57,789 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:03:03,359 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:03:03,591 - INFO -  * Restarting with stat
+2026-06-25 15:03:04,373 - WARNING -  * Debugger is active!
+2026-06-25 15:03:04,379 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:03:05,563 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:05] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 15:03:06,692 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:06,708 - INFO - User: heleo  | Bot Success
+2026-06-25 15:03:06,708 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:06] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:12,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:12,403 - INFO - User: hello | Bot Success
+2026-06-25 15:03:12,404 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:19,685 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:19] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 15:03:20,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:20,402 - INFO - User: heleo  | Bot Success
+2026-06-25 15:03:20,402 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:20] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:35,828 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:35,830 - INFO - User: hello how are you | Bot Success
+2026-06-25 15:03:35,832 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:35] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:40,070 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:40,084 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 15:03:40,086 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:40] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:46,468 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:46,470 - INFO - User: who is your deveolper ?/ | Bot Success
+2026-06-25 15:03:46,470 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:46] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:03:59,376 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:03:59,377 - INFO - User: my legs are shievring today | Bot Success
+2026-06-25 15:03:59,378 - INFO - 127.0.0.1 - - [25/Jun/2026 15:03:59] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:04:23,985 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:04:23,987 - INFO - User: speak in english why are you not speaking in english? | Bot Success
+2026-06-25 15:04:23,987 - INFO - 127.0.0.1 - - [25/Jun/2026 15:04:23] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:04:36,893 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:04:36,896 - INFO - User: you know the rule i define | Bot Success
+2026-06-25 15:04:36,897 - INFO - 127.0.0.1 - - [25/Jun/2026 15:04:36] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:04:50,987 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:04:50,990 - INFO - User: okay let start in english | Bot Success
+2026-06-25 15:04:50,991 - INFO - 127.0.0.1 - - [25/Jun/2026 15:04:50] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:05:03,943 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:05:03,945 - INFO - User: give mem medicine of fver | Bot Success
+2026-06-25 15:05:03,947 - INFO - 127.0.0.1 - - [25/Jun/2026 15:05:03] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:07:32,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 15:07:32,888 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 15:07:32,890 - INFO -  * Restarting with stat
+2026-06-25 15:07:33,970 - WARNING -  * Debugger is active!
+2026-06-25 15:07:33,974 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:07:36,735 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:36] "GET / HTTP/1.1" 200 -
+2026-06-25 15:07:36,877 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:36] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 15:07:36,884 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:36] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 15:07:36,888 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:36] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 15:07:37,004 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:37] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 15:07:43,429 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:43] "GET /chat?query=heleo+ HTTP/1.1" 200 -
+2026-06-25 15:07:45,424 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:07:45,448 - INFO - User: heleo  | Bot Success
+2026-06-25 15:07:45,448 - INFO - 127.0.0.1 - - [25/Jun/2026 15:07:45] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:08:01,215 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:08:01,216 - INFO - User: hello how are you?? | Bot Success
+2026-06-25 15:08:01,217 - INFO - 127.0.0.1 - - [25/Jun/2026 15:08:01] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:08:12,357 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:08:12,359 - INFO - User: i am zrar akbar | Bot Success
+2026-06-25 15:08:12,360 - INFO - 127.0.0.1 - - [25/Jun/2026 15:08:12] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:08:43,910 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:08:43,911 - INFO - User: i am XYZ and feeling tired today suggest me any medicine | Bot Success
+2026-06-25 15:08:43,912 - INFO - 127.0.0.1 - - [25/Jun/2026 15:08:43] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:09:06,920 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:09:06,924 - INFO - User: okay well speakin english follow this rule | Bot Success
+2026-06-25 15:09:06,927 - INFO - 127.0.0.1 - - [25/Jun/2026 15:09:06] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:09:21,303 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:09:21,306 - INFO - User: okay i have d\fever give medicine fr that | Bot Success
+2026-06-25 15:09:21,307 - INFO - 127.0.0.1 - - [25/Jun/2026 15:09:21] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:09:39,388 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:09:39,389 - INFO - User: why ypou are still responding i nui  urdu >?? | Bot Success
+2026-06-25 15:09:39,390 - INFO - 127.0.0.1 - - [25/Jun/2026 15:09:39] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:10:27,251 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:27,477 - INFO -  * Restarting with stat
+2026-06-25 15:10:29,109 - WARNING -  * Debugger is active!
+2026-06-25 15:10:29,115 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:30,317 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:30,448 - INFO -  * Restarting with stat
+2026-06-25 15:10:31,255 - WARNING -  * Debugger is active!
+2026-06-25 15:10:31,261 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:33,472 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:33,580 - INFO -  * Restarting with stat
+2026-06-25 15:10:34,262 - WARNING -  * Debugger is active!
+2026-06-25 15:10:34,267 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:43,040 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:43,218 - INFO -  * Restarting with stat
+2026-06-25 15:10:44,179 - WARNING -  * Debugger is active!
+2026-06-25 15:10:44,184 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:46,485 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:46,609 - INFO -  * Restarting with stat
+2026-06-25 15:10:47,399 - WARNING -  * Debugger is active!
+2026-06-25 15:10:47,404 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:53,930 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:54,083 - INFO -  * Restarting with stat
+2026-06-25 15:10:55,082 - WARNING -  * Debugger is active!
+2026-06-25 15:10:55,098 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:10:58,489 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:10:58,610 - INFO -  * Restarting with stat
+2026-06-25 15:10:59,907 - WARNING -  * Debugger is active!
+2026-06-25 15:10:59,920 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:11:01,206 - INFO -  * Detected change in 'D:\\Randhawa Jutt\\OneDrive\\Desktop\\AI Projects\\MediBot_Pro\\chatbot.py', reloading
+2026-06-25 15:11:01,339 - INFO -  * Restarting with stat
+2026-06-25 15:11:02,756 - WARNING -  * Debugger is active!
+2026-06-25 15:11:02,762 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:11:25,792 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-25 15:11:25,793 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-25 15:11:25,794 - INFO -  * Restarting with stat
+2026-06-25 15:11:26,532 - WARNING -  * Debugger is active!
+2026-06-25 15:11:26,540 - INFO -  * Debugger PIN: 145-045-331
+2026-06-25 15:11:29,226 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:29] "GET / HTTP/1.1" 200 -
+2026-06-25 15:11:29,529 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:29] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 15:11:29,604 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:29] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 15:11:29,651 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:29] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 15:11:29,992 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:29] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 15:11:30,028 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:30] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-25 15:11:30,521 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 15:11:32,724 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:32] "GET /chat?query=hello+ HTTP/1.1" 200 -
+2026-06-25 15:11:34,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:11:34,252 - INFO - User: hello  | Bot Success
+2026-06-25 15:11:34,253 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:34] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:11:56,068 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:11:56,078 - INFO - User: hello how are you | Bot Success
+2026-06-25 15:11:56,079 - INFO - 127.0.0.1 - - [25/Jun/2026 15:11:56] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:12:00,921 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:12:00,923 - INFO - User: my name is zrar akbar | Bot Success
+2026-06-25 15:12:00,924 - INFO - 127.0.0.1 - - [25/Jun/2026 15:12:00] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:12:15,674 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:12:15,676 - INFO - User: my name is noor and  i feeling cold tpday | Bot Success
+2026-06-25 15:12:15,676 - INFO - 127.0.0.1 - - [25/Jun/2026 15:12:15] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:12:44,269 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:12:44,271 - INFO - User: okay sugfgesr any medicine  of cold  in english not in roman urdu | Bot Success
+2026-06-25 15:12:44,271 - INFO - 127.0.0.1 - - [25/Jun/2026 15:12:44] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:13:03,514 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-25 15:13:03,518 - INFO - User: okay thank you for suggestion | Bot Success
+2026-06-25 15:13:03,533 - INFO - 127.0.0.1 - - [25/Jun/2026 15:13:03] "POST /get HTTP/1.1" 200 -
+2026-06-25 15:18:29,051 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:29] "GET / HTTP/1.1" 200 -
+2026-06-25 15:18:29,446 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:29] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-25 15:18:29,482 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:29] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-25 15:18:29,515 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:29] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-25 15:18:29,716 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-25 15:18:30,888 - INFO - 127.0.0.1 - - [25/Jun/2026 15:18:30] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-28 18:21:45,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 18:21:45,951 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-28 18:21:53,091 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:53] "GET / HTTP/1.1" 200 -
+2026-06-28 18:21:53,241 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:53] "[33mGET /css/animations.css HTTP/1.1[0m" 404 -
+2026-06-28 18:21:53,265 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:53] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2026-06-28 18:21:53,286 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:53] "[33mGET /css/dashboard.css HTTP/1.1[0m" 404 -
+2026-06-28 18:21:53,497 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:53] "[35m[1mGET /static/transform.mp4 HTTP/1.1[0m" 206 -
+2026-06-28 18:21:54,661 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-28 18:21:58,453 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:58] "GET /chat?query=hello+ HTTP/1.1" 200 -
+2026-06-28 18:21:58,945 - INFO - User: hello
+Bot: Thanks for being here! Describe your symptoms, and I can help.
+
+2026-06-28 18:21:58,948 - INFO - 127.0.0.1 - - [28/Jun/2026 18:21:58] "POST /get HTTP/1.1" 200 -
+2026-06-28 18:22:01,589 - INFO - User: hyy
+Bot: I couldn't identify any medical symptoms. Please describe your symptoms clearly.
+
+2026-06-28 18:22:01,590 - INFO - 127.0.0.1 - - [28/Jun/2026 18:22:01] "POST /get HTTP/1.1" 200 -
+2026-06-28 18:22:10,040 - INFO - User: my nam eis zrar akbar
+Bot: I couldn't identify any medical symptoms. Please describe your symptoms clearly.
+
+2026-06-28 18:22:10,042 - INFO - 127.0.0.1 - - [28/Jun/2026 18:22:10] "POST /get HTTP/1.1" 200 -
+2026-06-28 18:22:15,245 - INFO - User: zrar akbar
+Bot: I couldn't identify any medical symptoms. Please describe your symptoms clearly.
+
+2026-06-28 18:22:15,246 - INFO - 127.0.0.1 - - [28/Jun/2026 18:22:15] "POST /get HTTP/1.1" 200 -

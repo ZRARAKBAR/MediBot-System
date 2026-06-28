@@ -1,0 +1,11 @@
+disease,recommended_tests
+flu,Blood Test, Throat Swab
+malaria,Blood Smear
+diabetes,Blood Sugar Test, HbA1c Test
+cold,None
+migraine,None
+asthma,Spirometry
+chickenpox,Blood Test
+typhoid,Blood Test, Widal Test
+hepatitis,Liver Function Test
+pneumonia,Chest X-Ray, Blood Test

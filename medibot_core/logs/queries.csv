@@ -1,0 +1,77 @@
+2025-12-13 22:40:51.475054,fever,flu,"Paracetamol, Cough Syrup"
+2025-12-13 22:41:01.384119,i have headche,migraine,Ibuprofen
+2025-12-13 22:41:35.433116,headache can also be due to daily work,migraine,Ibuprofen
+2025-12-13 23:09:16.367348,i have fever,flu,16.0%,"Paracetamol, Cough Syrup"
+2025-12-13 23:09:36.003735,i have headke,migraine,23.0%,Ibuprofen
+2025-12-13 23:10:00.238598,am sneezing,migraine,17.0%,Ibuprofen
+2025-12-13 23:23:50.596607,i have pain in stomach,typhoid,30.0%,Azithromycin
+2025-12-13 23:24:28.350949,sneezing,migraine,17.0%,Ibuprofen
+2025-12-13 23:43:20.402842,i have stomach pain,typhoid,,Azithromycin
+2025-12-13 23:44:13.848096,fever with body pain,flu,,"Paracetamol, Cough Syrup"
+2025-12-13 23:47:48.804097,i have sneeezing and headache,cold,Rule-based,Antihistamine
+2025-12-14 20:21:22.867349,headhe,migraine,Rule-based,Ibuprofen
+2025-12-14 20:22:38.045636,i have   headche,migraine,Rule-based,Ibuprofen
+2025-12-14 20:23:04.598819,i have headche and fever with stomach pain,migraine,Rule-based,UGS
+2025-12-14 20:48:22.008705,FEVER,flu,16.0%,"Paracetamol, Cough Syrup"
+2025-12-18 23:59:57.164229,fever,flu,16.0%,"Paracetamol, Cough Syrup"
+2025-12-19 00:00:09.785785,stomach pain,typhoid,30.0%,Azithromycin
+2025-12-19 00:09:42.199140,i have fever,flu,16.0%,"Paracetamol, Cough Syrup"
+2025-12-19 00:24:51.554747,stomach pain,typhoid,30.0%,Azithromycin
+2025-12-19 01:53:36.713906,i have fever,flu,ML,16.0%,"Paracetamol, Cough Syrup"
+2025-12-19 01:53:53.630506,i have pain in head,migraine,Rule-based,-,Ibuprofen
+2025-12-19 01:54:58.502710,i have fever,flu,ML,16.0%,"Paracetamol, Cough Syrup"
+2025-12-19 01:55:08.060395,i have headche,migraine,Rule-based,-,Ibuprofen
+2025-12-19 01:56:38.918840,fever and headche,migraine,Rule-based,-,Ibuprofen
+2025-12-19 01:56:52.534749,sveral pain in head,migraine,Rule-based,-,Ibuprofen
+2025-12-19 01:57:01.061665,vomitting,chickenpox,ML,23.0%,Calamine Lotion
+2025-12-19 01:57:23.648557,no i mean vomitting,chickenpox,ML,23.0%,Calamine Lotion
+2025-12-19 02:01:40.977692,i have vomiiting,chickenpox,ML,23.0%,Calamine Lotion
+2025-12-19 02:04:49.300180,am feeing well,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:05:05.801615,feeling well,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:10:25.720680,i have fever,flu,ML,16.0%,"Paracetamol, Cough Syrup"
+2025-12-19 02:13:04.698577,malaria,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:15:52.840850,malaria,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:16:48.191375,nicew,hepatitis,ML,21.0%,Tenofovir
+2025-12-19 02:16:55.594013,nice,hepatitis,ML,21.0%,Tenofovir
+2025-12-19 02:17:06.553775,am feeling good,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:24:16.835611,i have pain in heafd,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:24:27.371409,chest pain,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:25:44.230064,malaria,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:25:54.077097,wheezing,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:26:01.342840,sweating,malaria,ML,22.0%,"Chloroquine, Paracetamol"
+2025-12-19 02:28:31.449952,shortness of breath,pneumonia,ML,17.0%,Amoxicillin
+2025-12-19 02:28:42.175022,loss of appetite,typhoid,ML,20.0%,Azithromycin
+2025-12-19 02:29:25.104544,"jaundice,loss of appetite",hepatitis,ML,32.0%,Tenofovir
+2025-12-19 02:33:12.721831,"jaundice,loss of appetite",hepatitis,ML,32.0%,Tenofovir
+2025-12-19 02:33:26.136136,loss of appetuite,typhoid,ML,20.0%,Azithromycin
+2025-12-19 02:34:29.359051,flu,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:34:38.425954,pain in head,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:35:36.179572,pain in head,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:35:47.796386,chest pain,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:35:53.094888,headche,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:35:59.035960,headache,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:37:21.771634,headache,migraine,Rule-based,-,Ibuprofen
+2025-12-19 02:38:22.883467,cold,migraine,ML,18.0%,Ibuprofen
+2025-12-19 02:42:15.854547,cold,migraine,ML,18.0%,"Ibuprofen, Paracetamol"
+2025-12-19 09:29:11.850370,i have fever,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2025-12-19 11:30:01.698231,i have fever,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2025-12-19 11:31:20.315701,i have shortage of breath,chickenpox,ML,23.0%,"Calamine Lotion, Paracetamol"
+2025-12-19 11:31:31.218439,shortage of braeth,chickenpox,ML,23.0%,"Calamine Lotion, Paracetamol"
+2025-12-19 11:32:36.667322,flu,migraine,ML,18.0%,"Ibuprofen, Paracetamol"
+2025-12-19 11:33:28.818388,i have headceeee,migraine,Rule-based,-,"Ibuprofen, Paracetamol"
+2025-12-19 11:33:43.841468,am wheezimggg,migraine,ML,18.0%,"Ibuprofen, Paracetamol"
+2025-12-19 11:34:07.650199,sweating,malaria,ML,22.0%,"Chloroquine, Artemether-Lumefantrine"
+2025-12-19 13:02:14.261206,i have fiverr,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2025-12-26 18:01:21.975207,i have fever,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2025-12-26 18:13:01.275639,i have fever,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2025-12-26 18:13:11.255422,pain in head,migraine,Rule-based,-,"Ibuprofen, Paracetamol"
+2025-12-26 18:13:21.561408,chest pain,migraine,ML,18.0%,"Ibuprofen, Paracetamol"
+2025-12-26 18:17:39.982368,i feeling pain in leg,migraine,ML,18.0%,"Ibuprofen, Paracetamol"
+2025-12-26 18:17:49.725101,sweat,malaria,ML,22.0%,"Chloroquine, Artemether-Lumefantrine"
+2026-06-13 18:19:55.775416,zrar,chickenpox,ML,23.0%,"Calamine Lotion, Paracetamol"
+2026-06-13 18:21:13.958214,i have fever,flu,ML,16.0%,"Paracetamol, Ibuprofen"
+2026-06-13 18:21:35.029465,headche,migraine,Rule-based,-,"Ibuprofen, Paracetamol"
+2026-06-13 18:21:51.631743,dengue,migraine,ML,19.0%,"Ibuprofen, Paracetamol"
+2026-06-25 09:12:03.303523,its  nice to meet you,hepatitis,ML,21.0%,Silymarin
+2026-06-25 09:18:01.152909,hell,malaria,ML,19.0%,"Chloroquine, Artemether-Lumefantrine"
+2026-06-25 09:20:20.342499,headcahe,migraine,Rule-based,High Confidence,"Ibuprofen, Paracetamol"

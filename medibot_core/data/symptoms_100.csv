@@ -1,0 +1,11 @@
+disease,symptom_1,symptom_2,symptom_3,symptom_4,symptom_5
+flu,fever,cough,headache,sore throat,runny nose
+malaria,fever,chills,nausea,headache,sweating
+diabetes,frequent urination,increased thirst,increased hunger,fatigue,blurred vision
+cold,sneezing,cough,runny nose,sore throat,fatigue
+migraine,headache,nausea,sensitivity to light,sensitivity to sound,blurred vision
+asthma,shortness of breath,cough,wheezing,chest tightness,fatigue
+chickenpox,fever,rash,itching,fatigue,loss of appetite
+typhoid,fever,weakness,stomach pain,headache,loss of appetite
+hepatitis,fever,fatigue,jaundice,loss of appetite,nausea
+pneumonia,fever,cough,chest pain,shortness of breath,fatigue
